@@ -43,5 +43,6 @@ public class WeatherResponse {
     @AllArgsConstructor
     public static class Wind {
         private double speed;
+
     }
 }

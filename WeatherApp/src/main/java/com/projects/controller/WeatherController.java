@@ -40,7 +40,7 @@ public class WeatherController {
             String weatherIcon = "wi wi-owm-" + weatherResponse.getWeather().get(0).getId();
             model.addAttribute("weathericon", weatherIcon);
         } else {
-            model.addAttribute("error", "City not found");
+            model.addAttribute("error", "City not found.");
         }
         return "weather";
     }
