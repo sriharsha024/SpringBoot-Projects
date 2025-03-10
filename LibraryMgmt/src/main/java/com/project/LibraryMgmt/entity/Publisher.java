@@ -17,7 +17,7 @@ import java.util.Set;
 public class Publisher {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int publisherId;
+    private long publisherId;
 
     @NotNull
     @Column(unique = true)

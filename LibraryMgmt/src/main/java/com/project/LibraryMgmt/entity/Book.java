@@ -16,7 +16,7 @@ import java.util.Set;
 public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int bookId;
+    private long bookId;
 
     @NotNull
     @Column(unique = true)
