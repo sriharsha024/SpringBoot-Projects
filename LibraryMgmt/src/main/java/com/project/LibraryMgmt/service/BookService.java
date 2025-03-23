@@ -142,7 +142,7 @@ public class BookService {
     // Helper method to convert Book to BookResponse
     private BookResponse convertToBookResponse(Book book) {
         BookResponse bookResponse = new BookResponse();
-        bookResponse.setBookId(book.getBookId());
+        bookResponse.setBookId((int) book.getBookId());
         bookResponse.setIsbn(book.getIsbn());
         bookResponse.setBookName(book.getBookName());
         bookResponse.setBookDescription(book.getBookDescription());
