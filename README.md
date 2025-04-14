@@ -98,7 +98,10 @@ JPA Relationships to model entities such as Book, Author, Publisher, and Categor
 
 Efficient Database Management using Spring Data JPA
 
+
+
 Technologies Used
+
 Spring Boot: Framework for building backend services and RESTful APIs
 
 Java: Primary programming language for backend development
